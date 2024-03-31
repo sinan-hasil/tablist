@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  background-color: black !important;
+  color: white !important;
+}
+
+.tablist {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tablist .button {
+  border: 2px solid #ddd;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 60%;
+  height: 50px;
+  background-color: #f1f1f1;
+}
+.tablist .button .btn {
+  border: none;
+  color: black;
+}
+.tablist .button .btn:hover {
+  background-color: black;
+  color: white;
+}
+.tablist .content {
+  width: 60%;
+  border: 2px solid #ddd;
+  border-top: none;
+  padding: 50px 20px;
+}
+.tablist .content .subtitle {
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
